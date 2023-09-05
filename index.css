@@ -1,0 +1,42 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    background-color:#0c051d;
+    border:solid 1px red;
+    margin-right:10%;
+    margin-left:10%;
+    margin-top:5%;
+}
+.nav h1{
+    color:white;
+    font-size:30px;
+    font-weight:bolder;
+    margin-bottom:0;
+}
+
+#link{
+   color:white;
+   display: flex;
+   flex-direction:row;
+   align-items:center;
+}
+#link h3 {
+    margin-right:80px;
+    font-weight:100;
+    margin-top:30px;
+}
+.first {
+    display:flex;
+    flex-direction:row;
+    color:white;
+    border:1px solid blue;
+}
+.first img{
+    width:500px;
+    height:auto;
+    /*margin-left:200px;*/
+}
+h1{
+    color:white;
+}
